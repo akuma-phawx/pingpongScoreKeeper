@@ -18,8 +18,8 @@ const resetFunc = () => {
   p1.innerText = p1Score;
   p2.innerText = p2Score;
   isGameOver = false;
-  p1.classList.remove("winner", "loser");
-  p2.classList.remove("winner", "loser");
+  p1.classList.remove("has-text-success", "has-text-danger");
+  p2.classList.remove("has-text-success", "has-text-danger");
 };
 
 p1Button.addEventListener("click", () => {
@@ -27,8 +27,8 @@ p1Button.addEventListener("click", () => {
     p1Score++;
     if (p1Score === winningScore) {
       isGameOver = true;
-      p1.classList.add("winner");
-      p2.classList.add("loser");
+      p1.classList.add("has-text-success");
+      p2.classList.add("has-text-danger");
     }
     p1.innerText = p1Score;
   }
@@ -39,8 +39,8 @@ p2Button.addEventListener("click", () => {
     p2Score++;
     if (p2Score === winningScore) {
       isGameOver = true;
-      p2.classList.add("winner");
-      p1.classList.add("loser");
+      p2.classList.add("has-text-success");
+      p1.classList.add("has-text-danger");
     }
     p2.innerText = p2Score;
   }

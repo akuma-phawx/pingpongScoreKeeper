@@ -4,20 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ping Pong Score Keeper</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
     <link rel="stylesheet" href="app.css" />
   </head>
   <body>
-    <h1><span id="p1">0</span> to <span id="p2">0</span></h1>
-    <select name="" id="playTo">
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="7">7</option>
-    </select>
-    <button id="p1Button">+1 Player One</button>
-    <button id="p2Button">+1 Player Two</button>
-    <button id="reset">Reset</button>
+    <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-2by1">
+                <img src="pingpong.jpg" alt="">
+              </figure>
+            </div>
+            <header class="card-header">
+              <p class="card-header-title">Ping Pong Score Keeper</p>
+            
+                <span class="icon">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </a>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                <h1 class="title is-1"><span id="p1">0</span> to <span id="p2">0</span></h1>
+                <p class="subtitle">Use the buttons below to keep score</p>
+              </div>
+              <label for="playto" class="label is-large is-inline">Playing to</label>
+              <div class="select is-rounded">
+                <select name="" id="playTo">
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                </select>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <button id="p1Button" class="button is-dark card-footer-item">+1 Player One</button>
+              <button id="p2Button" class="button is-dark card-footer-item">+1 Player Two</button>
+              <button id="reset" class="button is-dark card-footer-item">Reset</button>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
     <script src="app.js"></script>
   </body>
 </html>
