@@ -2,4 +2,4 @@
 
 ---
 
-(To Be Updated...)
+A ping pong tracker in HTML,CSS,JS using the Bulma Framework.
