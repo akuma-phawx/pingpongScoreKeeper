@@ -4,6 +4,6 @@
 
 :tennis: A ping pong score tracker in HTML,CSS and JS using **Bulma Framework**.
 
-For any improvements feel free to fork ! :thought_balloon:
+For any improvements, feel free to fork ! :thought_balloon:
 
 :arrow_forward: **Live Demo** : https://akuma-phawx.github.io/pingpongScoreKeeper/
