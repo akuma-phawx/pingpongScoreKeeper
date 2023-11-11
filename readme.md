@@ -2,7 +2,7 @@
 
 ---
 
-:tennis: A ping pong score tracker in HTML,CSS and JS using **Bulma Framework**.
+:tennis: A ping pong score tracker in HTML - CSS and JS using **Bulma Framework**.
 
 For any improvements, feel free to fork ! :thought_balloon:
 
