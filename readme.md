@@ -1,4 +1,4 @@
- Simple Ping Pong Score Keepe
+ Simple Ping Pong Score Keeper
 
 ---
 
