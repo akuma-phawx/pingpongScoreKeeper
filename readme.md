@@ -1,4 +1,4 @@
- Simple Ping Pong Score Keeper 🏕️
+ Simple Ping Pong Score Keeper 
 ---
 
 :tennis: A ping pong score tracker in HTML - CSS and JS using **Bulma**.
